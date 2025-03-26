@@ -1,58 +1,27 @@
-<!-- dashboard.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="#">Education for All</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#matches">Matches</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#messages">Messages</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-danger text-white" href="index.html">Logout</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<body>
+    <header>
+        <h1>Sponsor Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
     
-    <div class="container mt-4">
-        <h2 class="text-center">Welcome to Your Dashboard</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <h4>My Profile</h4>
-                    <p>View and edit your profile details.</p>
-                    <a href="profile.html" class="btn btn-primary">Go to Profile</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <h4>Matched Children</h4>
-                    <p>See the children you are supporting.</p>
-                    <a href="matches.html" class="btn btn-success">View Matches</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-3">
-                    <h4>Messages</h4>
-                    <p>Communicate with your matches.</p>
-                    <a href="messages.html" class="btn btn-warning">Open Messages</a>
-                </div>
-            </div>
+    <section>
+        <h2>Your Sponsored Children</h2>
+        <div id="sponsoredChildren">
+            <!-- Sponsored children data will be displayed here -->
         </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </section>
 </body>
 </html>
