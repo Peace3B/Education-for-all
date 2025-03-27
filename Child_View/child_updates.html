@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardian Updates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Update Child Information</h1>
+        <nav>
+            <ul>
+                <li><a href="child_dashboard.html">Dashboard</a></li>
+                <li><a href="matching.html">Matching</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Edit Child Details</h2>
+        <form action="update_child.php" method="POST">
+            <label for="new_needs">New Needs:</label>
+            <textarea id="new_needs" name="new_needs"></textarea>
+
+            <label for="new_school">New School Details:</label>
+            <textarea id="new_school" name="new_school"></textarea>
+
+            <button type="submit">Update</button>
+        </form>
+    </section>
+</body>
+</html>

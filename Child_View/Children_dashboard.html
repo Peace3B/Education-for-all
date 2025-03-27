@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Children Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Children's Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>Progress Reports</h2>
+        <div id="progressReports">
+            <!-- Child progress data will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <section>
+        <h2>Guardian Updates</h2>
+        <form id="guardianUpdateForm">
+            <textarea id="guardianMessage" placeholder="Update child's information here..."></textarea>
+            <button type="submit">Submit Update</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>School Data</h2>
+        <div id="schoolData">
+            <!-- School academic data will be dynamically loaded here -->
+        </div>
+    </section>
+    
+    <section>
+        <h2>Notifications</h2>
+        <div id="notifications">
+            <!-- Email & SMS notifications will be displayed here -->
+        </div>
+    </section>
+
+    <section>
+        <h2>Reports & Analytics</h2>
+        <div id="reportsAnalytics">
+            <!-- System analytics and performance reports will be displayed here -->
+        </div>
+    </section>
+    
+    <script src="children_dashboard.js"></script>
+</body>
+</html>
