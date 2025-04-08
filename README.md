@@ -68,7 +68,7 @@ SQLite/MySQL for storing user data.
 
 *Installation & Setup*
 Clone the repository:
- git clone https://github.com/your-repo/education-for-all.git
+ git clone (https://github.com/Peace3B/Education-for-all.git)
 
 Navigate to the project folder:
  cd education-for-all
